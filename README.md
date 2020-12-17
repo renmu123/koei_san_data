@@ -6,5 +6,5 @@
 
 # 其他数据
 
-[人物头像]: https://github.com/renmu123/koei_san_character_img
+[人物头像](https://github.com/renmu123/koei_san_character_img)
 
