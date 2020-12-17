@@ -1,0 +1,901 @@
+﻿[{
+    "id": 1,
+    "name": "飞将",
+    "text": "於陆上时不考虑ＺＯＣ、对武力低的敌部队施展战法成功时会心一击",
+    "trickTypeId": 1,
+    "level": 4,
+    "trickGroupIdList": "",
+    "arm": "111100"
+  },
+  {
+    "id": 2,
+    "name": "遁走",
+    "text": "於陆上时不考虑ＺＯＣ",
+    "trickTypeId": 1,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "111100"
+  },
+  {
+    "id": 3,
+    "name": "强行",
+    "text": "增加兵器、输送部队以外的陆上部队之移动力",
+    "trickTypeId": 1,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "111100"
+  },
+  {
+    "id": 4,
+    "name": "长驱",
+    "text": "增加骑兵部队的移动力",
+    "trickTypeId": 1,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000100"
+  },
+  {
+    "id": 5,
+    "name": "推进",
+    "text": "於水上时不考虑ＺＯＣ",
+    "trickTypeId": 1,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000001"
+  },
+  {
+    "id": 6,
+    "name": "操舵",
+    "text": "增加水上的移动力",
+    "trickTypeId": 1,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000001"
+  },
+  {
+    "id": 7,
+    "name": "踏破",
+    "text": "无栈道通行的损害；减轻落石的损伤",
+    "trickTypeId": 1,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "111110"
+  },
+  {
+    "id": 8,
+    "name": "搬运",
+    "text": "增加输送部队的移动力",
+    "trickTypeId": 1,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 9,
+    "name": "解毒",
+    "text": "预防毒泉的伤害",
+    "trickTypeId": 1,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 10,
+    "name": "扫荡",
+    "text": "被攻击的敌方部队气力减少（小）",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "111111"
+  },
+  {
+    "id": 11,
+    "name": "威风",
+    "text": "被攻击的敌方部队气力减少（大）",
+    "trickTypeId": 2,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "111111"
+  },
+  {
+    "id": 12,
+    "name": "昂扬",
+    "text": "打倒敌方部队就可回復气力",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "111111"
+  },
+  {
+    "id": 13,
+    "name": "连击",
+    "text": "施展一般攻击时，有50％的機率可连续攻击２次",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "111101"
+  },
+  {
+    "id": 14,
+    "name": "突袭",
+    "text": "於陆上攻击时，有50％的機率不会受到损伤",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "111100"
+  },
+  {
+    "id": 15,
+    "name": "强袭",
+    "text": "於水上攻击时，有50％的機率不会受到损伤",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000001"
+  },
+  {
+    "id": 16,
+    "name": "乱战",
+    "text": "於森林中攻击时施展会心一击",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "110000"
+  },
+  {
+    "id": 17,
+    "name": "待伏",
+    "text": "伏兵成功时施展会心一击",
+    "trickTypeId": 4,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "110000"
+  },
+  {
+    "id": 18,
+    "name": "攻城",
+    "text": "攻击据点、设施、建築物时施展会心一击",
+    "trickTypeId": 2,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000011"
+  },
+  {
+    "id": 19,
+    "name": "掎角",
+    "text": "施展齐攻时，有50％的機率让对方陷入混乱",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "110101"
+  },
+  {
+    "id": 20,
+    "name": "捕缚",
+    "text": "击破敌方部队时，必定可捕捉无特技「强运」或名马的敌将",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "111101"
+  },
+  {
+    "id": 21,
+    "name": "精妙",
+    "text": "击破敌方部队时所获得的技巧点数增为２倍",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 22,
+    "name": "掠夺",
+    "text": "击破敌方部队时，有機会夺取敌将的道具",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "111101"
+  },
+  {
+    "id": 23,
+    "name": "攻心",
+    "text": "攻击时可将敌方部队的一部分士兵吸收到自军部队中",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "110100"
+  },
+  {
+    "id": 24,
+    "name": "驱逐",
+    "text": "对武力比自己低的敌方部队施展一般攻击时会成为会心一击",
+    "trickTypeId": 2,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "111101"
+  },
+  {
+    "id": 25,
+    "name": "射程",
+    "text": "使井阑、投石的射程增加１区格",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000010"
+  },
+  {
+    "id": 26,
+    "name": "白马",
+    "text": "未研究技巧「骑射」时也可施展骑射；骑射可施展会心一击",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000100"
+  },
+  {
+    "id": 27,
+    "name": "辅佐",
+    "text": "即使没建立人际关係（厌恶除外）也可获得支援攻击",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "001101"
+  },
+  {
+    "id": 28,
+    "name": "不屈",
+    "text": "若在部队的士兵不多时被攻击，有50％的機率不会受到损伤",
+    "trickTypeId": 3,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "111111"
+  },
+  {
+    "id": 29,
+    "name": "金刚",
+    "text": "在敌方攻击力微弱时被攻击的话，有50％的機率不会受到损伤",
+    "trickTypeId": 3,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "010000"
+  },
+  {
+    "id": 30,
+    "name": "铁壁",
+    "text": "就算被一齐攻击，也会视之为一般攻击",
+    "trickTypeId": 3,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "111111"
+  },
+  {
+    "id": 31,
+    "name": "怒发",
+    "text": "遭受敌方部队的战法攻击时，气力就会回復",
+    "trickTypeId": 3,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "111111"
+  },
+  {
+    "id": 32,
+    "name": "藤甲",
+    "text": "火以外的攻击损伤减半，但火攻的损伤将增为２倍",
+    "trickTypeId": 3,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "110000"
+  },
+  {
+    "id": 33,
+    "name": "强运",
+    "text": "不会战死、被俘、负伤",
+    "trickTypeId": 3,
+    "level": 4,
+    "trickGroupIdList": "",
+    "arm": "111111"
+  },
+  {
+    "id": 34,
+    "name": "血路",
+    "text": "就算部队溃灭，同部队的武将也不会被俘虏",
+    "trickTypeId": 3,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "111111"
+  },
+  {
+    "id": 35,
+    "name": "枪将",
+    "text": "对武力比自己低的敌方部队施展枪兵战法成功时会心一击",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "100000"
+  },
+  {
+    "id": 36,
+    "name": "戟将",
+    "text": "对武力比自己低的敌方部队施展戟兵战法成功时会心一击",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "010000"
+  },
+  {
+    "id": 37,
+    "name": "弓将",
+    "text": "对武力比自己低的敌方部队施展弩兵战法成功时会心一",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "001000"
+  },
+  {
+    "id": 38,
+    "name": "骑将",
+    "text": "对武力比自己低的敌方部队施展骑兵战法成功时会心一击",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000100"
+  },
+  {
+    "id": 39,
+    "name": "水将",
+    "text": "对武力比自己低的敌方部队施展水军战法成功时会心一击",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000001"
+  },
+  {
+    "id": 40,
+    "name": "勇将",
+    "text": "对武力比自己低的敌方部队施展全战法成功时会心一击",
+    "trickTypeId": 2,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "111111"
+  },
+  {
+    "id": 41,
+    "name": "神将",
+    "text": "对武力比自己低的敌方部队施展一般攻击及战法成功时会心一击",
+    "trickTypeId": 2,
+    "level": 4,
+    "trickGroupIdList": "",
+    "arm": "111100"
+  },
+  {
+    "id": 42,
+    "name": "鬥神",
+    "text": "枪兵战法与戟兵战法施展成功时会心一击",
+    "trickTypeId": 2,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "110000"
+  },
+  {
+    "id": 43,
+    "name": "枪神",
+    "text": "枪兵战法成功时施展会心一击",
+    "trickTypeId": 2,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "100000"
+  },
+  {
+    "id": 44,
+    "name": "戟神",
+    "text": "戟兵战法成功时施展会心一击",
+    "trickTypeId": 2,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "010000"
+  },
+  {
+    "id": 45,
+    "name": "弓神",
+    "text": "弩兵战法成功时施展会心一击",
+    "trickTypeId": 2,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "001000"
+  },
+  {
+    "id": 46,
+    "name": "骑神",
+    "text": "骑兵战法成功时施展会心一击",
+    "trickTypeId": 2,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000100"
+  },
+  {
+    "id": 47,
+    "name": "工神",
+    "text": "兵器战法成功时施展会心一击",
+    "trickTypeId": 2,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000010"
+  },
+  {
+    "id": 48,
+    "name": "水神",
+    "text": "水军战法成功时施展会心一击",
+    "trickTypeId": 2,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000001"
+  },
+  {
+    "id": 49,
+    "name": "霸王",
+    "text": "全战法成功时施展会心一击",
+    "trickTypeId": 2,
+    "level": 4,
+    "trickGroupIdList": "",
+    "arm": "111111"
+  },
+  {
+    "id": 50,
+    "name": "疾驰",
+    "text": "对攻击力比自部队低的敌方部队施展骑兵战法成功时，必使其陷入混乱",
+    "trickTypeId": 2,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000100"
+  },
+  {
+    "id": 51,
+    "name": "射手",
+    "text": "可於森林使用弩兵战法",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "001000"
+  },
+  {
+    "id": 52,
+    "name": "猛者",
+    "text": "以战法让敌方部队移动区格时，有50％的機率可让敌将负伤",
+    "trickTypeId": 2,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "110101"
+  },
+  {
+    "id": 53,
+    "name": "护卫",
+    "text": "同部队的武将不会战死、负伤",
+    "trickTypeId": 3,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "111111"
+  },
+  {
+    "id": 54,
+    "name": "火攻",
+    "text": "对智力比自己低的敌方部队施展部队计略「火计」时必定会成功",
+    "trickTypeId": 4,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 55,
+    "name": "言毒",
+    "text": "对智力比自己低的敌方部队施展部队计略「伪报」时，必定会成功",
+    "trickTypeId": 4,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 56,
+    "name": "機智",
+    "text": "对智力比自己低的敌方部队施展部队计略「擾乱」时，必定会成功",
+    "trickTypeId": 4,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 57,
+    "name": "诡计",
+    "text": "对智力比自己低的敌方部队施展部队计略「内讧」时，必定会成功",
+    "trickTypeId": 4,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 58,
+    "name": "虚实",
+    "text": "对智力比自己低的敌方部队施展全部队计略时，必定会成功",
+    "trickTypeId": 4,
+    "level": 4,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 59,
+    "name": "妙计",
+    "text": "对智力比自己低的敌方部队施展部队计略成功时会心一击",
+    "trickTypeId": 4,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 60,
+    "name": "秘计",
+    "text": "对智力比自己高的敌方部队施展部队计略成功时会心一击",
+    "trickTypeId": 4,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 61,
+    "name": "看破",
+    "text": "必定可识破智力比自己低的敌方部队所施展部队计略",
+    "trickTypeId": 4,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 62,
+    "name": "洞察",
+    "text": "必定可识破敌方部队所施展的部队计略",
+    "trickTypeId": 4,
+    "level": 4,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 63,
+    "name": "火神",
+    "text": "对智力比自己低的敌方部队施展火计时必会成功；於全火攻有所優势",
+    "trickTypeId": 4,
+    "level": 4,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 64,
+    "name": "神算",
+    "text": "对智力比自己低的敌方部队施展计略必会成功；於全计略有所優势",
+    "trickTypeId": 4,
+    "level": 4,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 65,
+    "name": "百出",
+    "text": "部队计略的消费气力变为１",
+    "trickTypeId": 4,
+    "level": 4,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 66,
+    "name": "鬼谋",
+    "text": "增广１区格可施展部队计略的範围",
+    "trickTypeId": 4,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 67,
+    "name": "连环",
+    "text": "部队计略成功时，与对象部队邻接的部队也会遭受计略波及",
+    "trickTypeId": 4,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 68,
+    "name": "深谋",
+    "text": "部队计略成功时施展会心一击",
+    "trickTypeId": 4,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 69,
+    "name": "反计",
+    "text": "若识破部队计略，就可对其施展同样的计略",
+    "trickTypeId": 4,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 70,
+    "name": "倾国",
+    "text": "对没有女性的部队施战部队计略成功率增为２倍",
+    "trickTypeId": 4,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 71,
+    "name": "妖术",
+    "text": "可施展部队计略的「妖术」",
+    "trickTypeId": 4,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 72,
+    "name": "鬼门",
+    "text": "可施展部队计略的「妖术、落雷」",
+    "trickTypeId": 4,
+    "level": 4,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 73,
+    "name": "规律",
+    "text": "可防止遭受部队计略「伪报」",
+    "trickTypeId": 5,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 74,
+    "name": "沉著",
+    "text": "可防止遭受部队计略「擾乱」",
+    "trickTypeId": 5,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 75,
+    "name": "明镜",
+    "text": "可防止遭受部队计略的「伪报、擾乱」",
+    "trickTypeId": 5,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 76,
+    "name": "奏乐",
+    "text": "每回合回復自军部队的气力",
+    "trickTypeId": 5,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 77,
+    "name": "诗想",
+    "text": "军乐台的回復气力效果增为２倍",
+    "trickTypeId": 5,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 78,
+    "name": "築城",
+    "text": "军事设施建设的耐久上昇量增为２倍",
+    "trickTypeId": 5,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 79,
+    "name": "屯田",
+    "text": "所属於关所、港口时，士兵不会消费兵粮",
+    "trickTypeId": 5,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 80,
+    "name": "名声",
+    "text": "增加徵兵时的士兵数",
+    "trickTypeId": 6,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 81,
+    "name": "能吏",
+    "text": "增加生产枪、戟、弩之兵装时的产量",
+    "trickTypeId": 6,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 82,
+    "name": "繁殖",
+    "text": "增加生产军马之兵装时的产量",
+    "trickTypeId": 6,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 83,
+    "name": "发明",
+    "text": "生产兵器之兵装时所需的生产期间减半",
+    "trickTypeId": 6,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 84,
+    "name": "造船",
+    "text": "生产舰船之兵装时所需的生产期间减半",
+    "trickTypeId": 6,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 85,
+    "name": "指导",
+    "text": "研究技巧时的费用减半",
+    "trickTypeId": 6,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 86,
+    "name": "眼力",
+    "text": "若有未发现的在野人士时执行人材探索的话，必定会发现",
+    "trickTypeId": 6,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 87,
+    "name": "论客",
+    "text": "於同盟、停战协定、交换俘虏时容易进入舌战",
+    "trickTypeId": 6,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 88,
+    "name": "富豪",
+    "text": "每个月的所属都市的资金收入增为1.5倍",
+    "trickTypeId": 7,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 89,
+    "name": "米道",
+    "text": "每季的所属都市的兵粮收入增加为1.5倍",
+    "trickTypeId": 7,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 90,
+    "name": "徵税",
+    "text": "每回合所属都市都会有资金收入（一次收入将减半）",
+    "trickTypeId": 7,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 91,
+    "name": "徵收",
+    "text": "每个月所属都市都会有兵粮的收入（一次的收入将减半）",
+    "trickTypeId": 7,
+    "level": 3,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 92,
+    "name": "亲乌",
+    "text": "所属都市的领内不会出现異族「乌丸」的根据地",
+    "trickTypeId": 8,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 93,
+    "name": "亲羌",
+    "text": "所属都市的领内不会出现異族「羌族」的根据地",
+    "trickTypeId": 8,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 94,
+    "name": "亲越",
+    "text": "所属都市的领内不会出现異族「山越」的根据地",
+    "trickTypeId": 8,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 95,
+    "name": "亲蛮",
+    "text": "所属都市的领内不会出现異族「南蛮」的根据地",
+    "trickTypeId": 8,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 96,
+    "name": "威压",
+    "text": "所属都市的领内不容易出现盗贼或異族的根据地",
+    "trickTypeId": 8,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 97,
+    "name": "仁政",
+    "text": "所属相同的武将之每个月的忠诚不会下降",
+    "trickTypeId": 8,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 98,
+    "name": "风水",
+    "text": "所属都市不容易出现蝗灾、瘟疫",
+    "trickTypeId": 8,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 99,
+    "name": "祈願",
+    "text": "所属都市容易出现豐收",
+    "trickTypeId": 8,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  },
+  {
+    "id": 100,
+    "name": "内助",
+    "text": "若结婚，双方的能力全部＋１",
+    "trickTypeId": 9,
+    "level": 2,
+    "trickGroupIdList": "",
+    "arm": "000000"
+  }
+]
